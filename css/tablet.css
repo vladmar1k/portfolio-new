@@ -1,0 +1,306 @@
+@media screen and (max-width: 1274px) and (min-width: 768px)
+{ 
+.container
+{
+	margin: 0 auto;
+	width: 768px;
+}
+.header
+{
+	width: 768px;
+	height: 90px;
+	background: #AF97BE;
+	display: flex;
+}
+.main-title 
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 26px;
+	margin-bottom: 40px;
+	margin-right: 15px;
+}
+.navigation
+{
+	width: 540px;
+	height: 90px;
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 20px;
+}
+a
+{
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+}
+.main
+{
+	width: 768px;
+}
+.block_main
+{
+	width: 768px;
+	height: 560px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.block_about_me
+{
+	width: 533px;
+	height: 246px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.title_name
+{
+	width: 220px;
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 23px;
+}
+.text_me
+{
+	width: 380px;
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 16px;
+}
+.icon
+{
+	display: none;
+}
+.my_photo
+{
+	width: 300px;
+	height: 300px;
+}
+.block_work
+{
+	width: 768px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title_work
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 32px;
+}
+.three-blocks
+{
+	width: 700px;
+	height: 1050px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.project-block
+{ 
+	width: 699px;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.block-inf-work 
+{
+	width: 324px;
+	height: 225px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.title_proj
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 32px;
+}
+.line
+{
+	width: 250px;
+	height: 1px;
+	background: black;
+}
+.text_proj
+{
+	font-family: "Inter", sans-serif;
+	font-size: 20px;
+}
+.block_project
+{
+	width: 345px;
+	height: 300px;
+}
+.project-photo
+{
+	width: 345px;
+	height: 300px;
+	margin-top: o;
+}
+.block_experience
+{
+	width: 768px;
+	height: 780px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title_experience
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 32px;
+}
+.block_shkm
+{
+	width: 768px;
+	height: 710px;
+	background: AF97BE;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+}
+.big_title
+{
+	font-family: "Kelly Slab", sans-serif;
+	font-size: 36px;
+}
+.block_info_shkm
+{
+	width: 768px;
+	height: 445px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.min_title
+{
+	font-family: "Kelly Slab", sans-serif;
+	font-size: 20px;
+}
+.text-inf
+{
+	font-family: "Inter", sans-serif;
+	font-size: 15px;
+}
+.block_contact
+{
+	width: 768px;
+	height: 1001px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title_contact
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 32px;
+}
+.block-info-me
+{
+	width: 560px;
+	height: 910px;
+	display: flex;
+	flex-direction: column;
+}
+.block-inf
+{
+	width: 372px;
+	height: 364px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.title-m-inf
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 32px;
+	margin-left: 200px;
+}
+.pheg
+{
+	width: 163px;
+}
+.t-pheg
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 26px;
+}
+.bl_inf
+{
+
+}
+.blo-contact
+{
+
+}
+.block_lo
+{
+
+}
+.ne
+{
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+}
+.bl_send-message
+{
+	width: 560px;
+	height: 486px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.box
+{
+	width: 560px;
+	height: 60px;
+	background: #AF97BE;
+	padding-left: 10px;
+	display: flex;
+	align-items: center;
+}
+.box-2
+{
+	width: 560px;
+	height: 180px;
+	background: #AF97BE;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.button
+{
+	width: 160px;
+	height: 60px;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	background: #AF97BE;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.arrow
+{
+	width: 20px;
+	height: 9px;
+}
+.footer
+{
+	width: 768px;
+	height: 144px;
+	background: #AF97BE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo
+{
+	margin-left: 10px;
+}
+}

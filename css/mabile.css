@@ -1,0 +1,373 @@
+@media screen and (min-width: 480px) and (max-width: 767px)
+{
+.container
+{
+	margin: 0 auto; 
+	width: 480px;
+}
+.header
+{
+	width: 480px;
+	height: 90px;
+	background: #AF97BE;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.main-title 
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 20px;
+}
+.navigation
+{
+	position: fixed;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	background: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3 ease-in-out;
+}
+ul
+{
+	list-style: none;
+	text-align: center;
+}
+li
+{
+	margin: 20px 0;
+}
+a
+{
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+}
+a:hover
+{
+	color: #ff6347;
+}
+.menu-btn
+{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	width: 90px;
+	height: 65px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+}
+.menu-btn__burger::before
+.menu-btn__burger::after
+{
+	content: '';
+	position: absolute;
+	width: 60px;
+	height: 6px;
+	background: #333;
+	border-radius: 5px;
+	transition: all 0.3 ease-in-out;
+}
+.menu-btn__burger::before 
+{
+    transform: translateY(-16px);
+}
+
+.menu-btn__burger::after 
+{
+    transform: translateY(16px);
+}
+
+.menu-btn.open .menu-btn__burger 
+{
+    transform: translateX(-50px);
+    background: transparent;
+}
+
+.menu-btn.open .menu-btn__burger::before 
+{
+    transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn__burger::after 
+{
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+.main
+{
+	width: 480px;
+}
+.block_main
+{
+	width: 480px;
+	height: 537px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.block_about_me
+{
+	width: 480px;
+	height: 246px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.title_name
+{
+	width: 220px;
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 23px;
+}
+.text_me
+{
+	width: 380px;
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 16px;
+}
+.icon
+{
+	display: none;
+}
+.my_photo
+{
+	width: 300px;
+	height: 300px;
+}
+.block_work
+{
+	width: 480px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title_work
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 32px;
+}
+.three-blocks
+{
+	width: 345px;
+	height: 2140px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.project-block
+{ 
+	width: 345px;
+	height: 669px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.block-inf-work 
+{
+	width: 324px;
+	height: 225px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.title_proj
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 32px;
+}
+.line
+{
+	width: 250px;
+	height: 1px;
+	background: black;
+	margin-top: 7px;
+}
+.text_proj
+{
+	font-family: "Inter", sans-serif;
+	font-size: 20px;
+	margin-top: 55px;
+}
+.block_project
+{
+	width: 345px;
+	height: 300px;
+}
+.project-photo
+{
+	width: 345px;
+	height: 300px;
+}
+.block_experience
+{
+	width: 480px;
+	height: 780px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title_experience
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 32px;
+}
+.block_shkm
+{
+	width: 480px;
+	height: 704px;
+	background: AF97BE;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+}
+.big_title
+{
+	font-family: "Kelly Slab", sans-serif;
+	font-size: 34px;
+}
+.block_info_shkm
+{
+	width: 404px;
+	height: 445px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.min_title
+{
+	font-family: "Kelly Slab", sans-serif;
+	font-size: 18px;
+}
+.text-inf
+{
+	width: 404px;
+	font-family: "Inter", sans-serif;
+	font-size: 13px;
+}
+.block_contact
+{
+	width: 480px;
+	height: 1036px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title_contact
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 32px;
+}
+.block-info-me
+{
+	width: 441px;
+	height: 944px;
+	display: flex;
+	flex-direction: column;
+}
+.block-inf
+{
+	width: 227px;
+	height: 356px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.title-m-inf
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 32px;
+}
+.pheg
+{
+	width: 163px;
+}
+.t-pheg
+{
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 26px;
+}
+.bl_inf
+{
+
+}
+.blo-contact
+{
+
+}
+.block_lo
+{
+
+}
+.ne
+{
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+}
+.bl_send-message
+{
+	width: 441px;
+	height: 538px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.box
+{
+	width: 441px;
+	height: 56px;
+	background: #AF97BE;
+	padding-left: 10px;
+	display: flex;
+	align-items: center;
+}
+.box-2
+{
+	width: 441px;
+	height: 239px;
+	background: #AF97BE;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.button
+{
+	width: 145px;
+	height: 56px;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	background: #AF97BE;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.arrow
+{
+	width: 20px;
+	height: 9px;
+}
+.footer
+{
+	width: 480px;
+	height: 131px;
+	background: #AF97BE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo
+{
+	margin-left: 10px;
+}
+}
